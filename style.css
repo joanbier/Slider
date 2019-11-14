@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.slider {
+    position: relative;
+    width: 100wh;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.slider h1 {
+    position: absolute;
+    bottom: 15%;
+    left: 7%;
+    padding: 10px 20px;
+    font-size: 50px;
+    border-radius: 3%;
+    letter-spacing: 5px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.568);
+}
+
+
+.slider img {
+    width: 100%;
+
+}
+
+.dots {
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+
+
+}
+
+.dots span {
+    display: inline-block;
+    margin: 0 10px;
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border-radius: 50%;
+    border: 1px solid white;
+
+
+}
+
+.dots .active {
+    box-shadow: 0 0 5px 5px cadetblue;
+}
