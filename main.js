@@ -29,7 +29,7 @@ const dots = [...document.querySelectorAll(".dots span")]
 
 
 // Interfejs
-const time = 4000;
+const time = 3000;
 let active = 0;
 
 
